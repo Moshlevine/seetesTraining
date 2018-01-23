@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="seetest.Test5_mytest">
+        <methods>
+          <include name="runtest"/>
+        </methods>
+      </class> <!-- seetest.Test5_mytest -->
+      <class name="seetest.TestMyapp">
+        <methods>
+          <include name="runtest"/>
+        </methods>
+      </class> <!-- seetest.TestMyapp -->
+      <class name="seetest.Test6_mytest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="runtest"/>
+        </methods>
+      </class> <!-- seetest.Test6_mytest1 -->
+      <class name="seetest.IOS_appstoretest">
+        <methods>
+          <include name="setUp"/>
+          <include name="runtest"/>
+        </methods>
+      </class> <!-- seetest.IOS_appstoretest -->
+      <class name="seetest.ChromeAndSafari">
+        <methods>
+          <include name="runtest"/>
+        </methods>
+      </class> <!-- seetest.ChromeAndSafari -->
+      <class name="seetest.EribankLogin">
+        <methods>
+          <include name="runtest"/>
+        </methods>
+      </class> <!-- seetest.EribankLogin -->
+      <class name="seetest.PlaystoreTest">
+        <methods>
+          <include name="runtest"/>
+        </methods>
+      </class> <!-- seetest.PlaystoreTest -->
+      <class name="seetest.Test7_mytest2">
+        <methods>
+          <include name="runtest"/>
+        </methods>
+      </class> <!-- seetest.Test7_mytest2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

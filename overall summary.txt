@@ -1,0 +1,61 @@
+the device XT1072 (1) serial number ZX1C229MVT has Failed on the following test: Eribank Login test
+first try..
+.........
+ the device HTC One A9 serial number HT5AWBE05669 has failed on the following test
+ the device XT1072 (1) serial number ZX1C229MVT has Passed on the following test: Eribank Login test
+ the device XT1072 (1) serial number ZX1C229MVT has Passed on the following test: Eribank Login test 
+the device XT1072 (1) serial number ZX1C229MVT has Passed on the following test: Eribank Login test 
+the device iPad Air 2 serial number 5d22bbe0e5529ccbf60b3626ed42ee636bc5f836 has failed on the following test: IOS app store test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Eribank Login test 
+the device iPhoneSE_B0093 serial number d7fae3c92a1aa36ce7bebc5ecd560ea6322d9654 has failed on the following test: IOS app store test 
+the device iPhoneSE_B0093 serial number d7fae3c92a1aa36ce7bebc5ecd560ea6322d9654 has failed on the following test: IOS app store test 
+the device iPhone7plus serial number 792710d6b6d257f45f02835f6d1d3374656d5579 has failed on the following test: IOS app store test 
+the device iPhone7plus serial number 792710d6b6d257f45f02835f6d1d3374656d5579 has failed on the following test: IOS app store test 
+the device iPhone7plus serial number 792710d6b6d257f45f02835f6d1d3374656d5579 has failed on the following test: IOS app store test 
+the device iPhone7plus serial number 792710d6b6d257f45f02835f6d1d3374656d5579 has failed on the following test: IOS app store test 
+the device iPhone7plus serial number 792710d6b6d257f45f02835f6d1d3374656d5579 has failed on the following test: IOS app store test 
+the device iPhone7plus serial number 792710d6b6d257f45f02835f6d1d3374656d5579 has failed on the following test: IOS app store test 
+the device iPad Air 2 serial number 5d22bbe0e5529ccbf60b3626ed42ee636bc5f836 has failed on the following test: IOS app store test 
+the device iPhone7plus serial number 792710d6b6d257f45f02835f6d1d3374656d5579 has failed on the following test: IOS app store test 
+the device iPhone7plus serial number 792710d6b6d257f45f02835f6d1d3374656d5579 has failed on the following test: IOS app store test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Chrome and Safari test 
+the device HTC One A9 serial number HT5AWBE05669 has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device HTC One A9 serial number HT5AWBE05669 has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has Passed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has Passed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: Playstore test 
+the device XT1072 (1) serial number ZX1C229MVT has Passed on the following test: test5 my test 
+the device XT1072 (1) serial number ZX1C229MVT has Passed on the following test: test5 my test 
+the device XT1072 (1) serial number ZX1C229MVT has failed on the following test: test5 my test 
+the device XT1072 (1) serial number ZX1C229MVT has Passed on the following test: test5 my test 
+the device HTC One A9 serial number HT5AWBE05669 has failed on the following test: Eribank Login test 
+the device iPad Air 2 serial number 5d22bbe0e5529ccbf60b3626ed42ee636bc5f836 has failed on the following test: IOS app store test 
+the device samsung SM-G900F serial number 08bfb167 has failed on the following test:  test6 my test 
+the device iPhone 4 serial number 569801f701a84ceedc3d0458297cea7dc353680a has failed on the following test: IOS app store test 
+the device Xiaomi Redmi Note 3 serial number NVNFUOC699999999 has Passed on the following test: test5 my test 
+the device HUAWEI ALE-L02 serial number N2K7N16811000808 has failed on the following test: Playstore test 
+the device samsung SM-G900F serial number 08bfb167 has failed on the following test: test5 my test 
+the device iPhone 4 serial number 569801f701a84ceedc3d0458297cea7dc353680a has failed on the following test: IOS app store test 
+the device samsung SM-G900F serial number 08bfb167 has Passed on the following test: test6 my test 
+the device iPhone 4 serial number 569801f701a84ceedc3d0458297cea7dc353680a has failed on the following test: IOS app store test 
+the device samsung SM-G900F serial number 08bfb167 has Passed on the following test: test5 my test 
+the device samsung SM-G900F serial number 08bfb167 has failed on the following test: Eribank Login test 
+the device samsung SM-G900F serial number 08bfb167 has Passed on the following test: test my app test 
+the device samsung SM-G900F serial number 08bfb167 has Passed on the following test: test 7 my test 
+the device samsung SM-G900F serial number 08bfb167 has failed on the following test: Playstore test

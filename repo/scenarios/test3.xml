@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><commands version="11.3">
+<command appiumName="SetDevice(Device)" enable="true" name="SetDevice(Device)">
+<parameters>
+<parameter appium="true" defaultValue="adb:Nexus 9" description="Device name" name="Device" pattern="(.+)" type="application"/>
+</parameters>
+</command>
+</commands>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2">
+  <test parallel="classes" name="Test">
+    <classes>
+      <class name="seetest.IOS_appstoretest"/>
+      <class name="seetest.Test6_mytest1"/>
+      <class name="seetest.Test5_mytest"/>
+      <class name="seetest.EribankLogin"/>
+      <class name="seetest.ChromeAndSafari"/>
+      <class name="seetest.TestMyapp"/>
+      <class name="seetest.Test7_mytest2"/>
+      <class name="seetest.PlaystoreTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
