@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="8" passed="0" failed="0" skipped="8">
+<testng-results total="8" passed="3" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-01-23T14:54:13Z" name="Suite" finished-at="2018-01-23T14:54:13Z" duration-ms="140">
+  <suite started-at="2018-01-24T13:29:36Z" name="Suite" finished-at="2018-01-24T13:56:25Z" duration-ms="1609345">
     <groups>
       <group name="seetest">
         <method signature="ChromeAndSafari.runtest()[pri:0, instance:seetest.ChromeAndSafari@419c5f1a]" name="runtest" class="seetest.ChromeAndSafari"/>
@@ -15,21 +15,29 @@
         <method signature="TestMyapp.runtest()[pri:0, instance:seetest.TestMyapp@12b0404f]" name="runtest" class="seetest.TestMyapp"/>
       </group> <!-- seetest -->
     </groups>
-    <test started-at="2018-01-23T14:54:13Z" name="Test" finished-at="2018-01-23T14:54:13Z" duration-ms="140">
+    <test started-at="2018-01-24T13:29:36Z" name="Test" finished-at="2018-01-24T13:56:25Z" duration-ms="1609345">
       <class name="seetest.Test6_mytest1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.Test6_mytest1@2bbf180e]" started-at="2018-01-23T16:54:13Z" name="setUp" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.Test6_mytest1@2bbf180e]" started-at="2018-01-24T15:29:36Z" name="setUp" finished-at="2018-01-24T15:29:36Z" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runtest()[pri:0, instance:seetest.Test6_mytest1@2bbf180e]" started-at="2018-01-24T15:29:36Z" name="runtest" finished-at="2018-01-24T15:31:25Z" duration-ms="108785" status="FAIL">
+          <exception class="com.experitest.client.InternalException">
+            <message>
+              <![CDATA[Exception caught while executing clickIn: Element was not identified: search element: 'xpath=//*[@id='text1']']]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at seetest.Main.setUp(Main.java:27)
+              <![CDATA[com.experitest.client.InternalException: Exception caught while executing clickIn: Element was not identified: search element: 'xpath=//*[@id='text1']'
+	at com.experitest.client.JavaClientInternals.executeInternally(JavaClientInternals.java:249)
+	at com.experitest.client.Client.execute(Client.java:247)
+	at com.experitest.client.Client.clickIn(Client.java:559)
+	at seetest.Test6_mytest1.runtest(Test6_mytest1.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
@@ -39,103 +47,64 @@
 	at java.base/java.lang.Thread.run(Thread.java:844)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- com.experitest.client.InternalException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.Test6_mytest1@2bbf180e]" started-at="2018-01-23T16:54:13Z" name="tearDown" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
+        </test-method> <!-- runtest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.Test6_mytest1@2bbf180e]" started-at="2018-01-24T15:31:25Z" name="tearDown" finished-at="2018-01-24T15:35:36Z" duration-ms="250429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runtest status=FAILURE method=Test6_mytest1.runtest()[pri:0, instance:seetest.Test6_mytest1@2bbf180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="runtest()[pri:0, instance:seetest.Test6_mytest1@2bbf180e]" started-at="2018-01-23T16:54:13Z" name="runtest" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runtest -->
       </class> <!-- seetest.Test6_mytest1 -->
       <class name="seetest.Test7_mytest2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.Test7_mytest2@769e7ee8]" started-at="2018-01-23T16:54:13Z" name="setUp" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.Test7_mytest2@769e7ee8]" started-at="2018-01-24T15:29:36Z" name="setUp" finished-at="2018-01-24T15:29:36Z" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="runtest()[pri:0, instance:seetest.Test7_mytest2@769e7ee8]" started-at="2018-01-23T16:54:13Z" name="runtest" finished-at="2018-01-23T16:54:13Z" duration-ms="1" status="SKIP">
+        <test-method signature="runtest()[pri:0, instance:seetest.Test7_mytest2@769e7ee8]" started-at="2018-01-24T15:29:36Z" name="runtest" finished-at="2018-01-24T15:32:04Z" duration-ms="147899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runtest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.Test7_mytest2@769e7ee8]" started-at="2018-01-23T16:54:13Z" name="tearDown" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.Test7_mytest2@769e7ee8]" started-at="2018-01-24T15:32:04Z" name="tearDown" finished-at="2018-01-24T15:32:09Z" duration-ms="4721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runtest status=SUCCESS method=Test7_mytest2.runtest()[pri:0, instance:seetest.Test7_mytest2@769e7ee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- seetest.Test7_mytest2 -->
       <class name="seetest.EribankLogin">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.EribankLogin@56de5251]" started-at="2018-01-23T16:54:13Z" name="setUp" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.EribankLogin@56de5251]" started-at="2018-01-24T15:29:36Z" name="setUp" finished-at="2018-01-24T15:29:36Z" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="runtest()[pri:0, instance:seetest.EribankLogin@56de5251]" started-at="2018-01-23T16:54:13Z" name="runtest" finished-at="2018-01-23T16:54:13Z" duration-ms="1" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runtest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.EribankLogin@56de5251]" started-at="2018-01-23T16:54:13Z" name="tearDown" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- seetest.EribankLogin -->
-      <class name="seetest.ChromeAndSafari">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.ChromeAndSafari@419c5f1a]" started-at="2018-01-23T16:54:13Z" name="setUp" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.ChromeAndSafari@419c5f1a]" started-at="2018-01-23T16:54:13Z" name="tearDown" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="runtest()[pri:0, instance:seetest.ChromeAndSafari@419c5f1a]" started-at="2018-01-23T16:54:13Z" name="runtest" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runtest -->
-      </class> <!-- seetest.ChromeAndSafari -->
-      <class name="seetest.TestMyapp">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.TestMyapp@12b0404f]" started-at="2018-01-23T16:54:13Z" name="setUp" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.TestMyapp@12b0404f]" started-at="2018-01-23T16:54:13Z" name="tearDown" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="runtest()[pri:0, instance:seetest.TestMyapp@12b0404f]" started-at="2018-01-23T16:54:13Z" name="runtest" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runtest -->
-      </class> <!-- seetest.TestMyapp -->
-      <class name="seetest.PlaystoreTest">
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.PlaystoreTest@5276e6b0]" started-at="2018-01-23T16:54:13Z" name="tearDown" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="runtest()[pri:0, instance:seetest.PlaystoreTest@5276e6b0]" started-at="2018-01-23T16:54:13Z" name="runtest" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runtest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.PlaystoreTest@5276e6b0]" started-at="2018-01-23T16:54:13Z" name="setUp" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-      </class> <!-- seetest.PlaystoreTest -->
-      <class name="seetest.IOS_appstoretest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.IOS_appstoretest@d4342c2]" started-at="2018-01-23T16:54:13Z" name="setUp" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="runtest()[pri:0, instance:seetest.EribankLogin@56de5251]" started-at="2018-01-24T15:29:36Z" name="runtest" finished-at="2018-01-24T15:33:10Z" duration-ms="213494" status="FAIL">
+          <exception class="java.lang.StringIndexOutOfBoundsException">
+            <message>
+              <![CDATA[begin 18, end 6, length 8]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at seetest.Main.setUp(Main.java:27)
+              <![CDATA[java.lang.StringIndexOutOfBoundsException: begin 18, end 6, length 8
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3116)
+	at java.base/java.lang.String.substring(String.java:1885)
+	at seetest.EribankLogin.runtest(EribankLogin.java:124)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
@@ -145,29 +114,201 @@
 	at java.base/java.lang.Thread.run(Thread.java:844)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="runtest()[pri:0, instance:seetest.IOS_appstoretest@d4342c2]" started-at="2018-01-23T16:54:13Z" name="runtest" finished-at="2018-01-23T16:54:13Z" duration-ms="1" status="SKIP">
+          </exception> <!-- java.lang.StringIndexOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runtest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.IOS_appstoretest@d4342c2]" started-at="2018-01-23T16:54:13Z" name="tearDown" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.EribankLogin@56de5251]" started-at="2018-01-24T15:33:10Z" name="tearDown" finished-at="2018-01-24T15:41:05Z" duration-ms="474901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runtest status=FAILURE method=EribankLogin.runtest()[pri:0, instance:seetest.EribankLogin@56de5251] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seetest.EribankLogin -->
+      <class name="seetest.ChromeAndSafari">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.ChromeAndSafari@419c5f1a]" started-at="2018-01-24T15:29:36Z" name="setUp" finished-at="2018-01-24T15:30:06Z" duration-ms="30163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runtest()[pri:0, instance:seetest.ChromeAndSafari@419c5f1a]" started-at="2018-01-24T15:30:06Z" name="runtest" finished-at="2018-01-24T15:38:05Z" duration-ms="478964" status="FAIL">
+          <exception class="com.experitest.client.InternalException">
+            <message>
+              <![CDATA[Exception caught while executing click: Element was not identified: 'xpath=//div[@class="nav-menu__hamburger"]' at zone WEB]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.experitest.client.InternalException: Exception caught while executing click: Element was not identified: 'xpath=//div[@class="nav-menu__hamburger"]' at zone WEB
+	at com.experitest.client.JavaClientInternals.executeInternally(JavaClientInternals.java:249)
+	at com.experitest.client.Client.execute(Client.java:247)
+	at com.experitest.client.Client.click(Client.java:476)
+	at seetest.ChromeAndSafari.runtest(ChromeAndSafari.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.experitest.client.InternalException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runtest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.ChromeAndSafari@419c5f1a]" started-at="2018-01-24T15:38:05Z" name="tearDown" finished-at="2018-01-24T15:56:25Z" duration-ms="1100173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runtest status=FAILURE method=ChromeAndSafari.runtest()[pri:0, instance:seetest.ChromeAndSafari@419c5f1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seetest.ChromeAndSafari -->
+      <class name="seetest.TestMyapp">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.TestMyapp@12b0404f]" started-at="2018-01-24T15:29:36Z" name="setUp" finished-at="2018-01-24T15:29:36Z" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runtest()[pri:0, instance:seetest.TestMyapp@12b0404f]" started-at="2018-01-24T15:29:36Z" name="runtest" finished-at="2018-01-24T15:31:46Z" duration-ms="129381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runtest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.TestMyapp@12b0404f]" started-at="2018-01-24T15:31:46Z" name="tearDown" finished-at="2018-01-24T15:31:49Z" duration-ms="3303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runtest status=SUCCESS method=TestMyapp.runtest()[pri:0, instance:seetest.TestMyapp@12b0404f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seetest.TestMyapp -->
+      <class name="seetest.PlaystoreTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.PlaystoreTest@5276e6b0]" started-at="2018-01-24T15:29:36Z" name="setUp" finished-at="2018-01-24T15:29:36Z" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runtest()[pri:0, instance:seetest.PlaystoreTest@5276e6b0]" started-at="2018-01-24T15:29:36Z" name="runtest" finished-at="2018-01-24T15:31:25Z" duration-ms="109113" status="FAIL">
+          <exception class="com.experitest.client.InternalException">
+            <message>
+              <![CDATA[Exception caught while executing click: Element was not identified: 'xpath=//*[@text='TOP CHARTS']' at zone NATIVE]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.experitest.client.InternalException: Exception caught while executing click: Element was not identified: 'xpath=//*[@text='TOP CHARTS']' at zone NATIVE
+	at com.experitest.client.JavaClientInternals.executeInternally(JavaClientInternals.java:249)
+	at com.experitest.client.Client.execute(Client.java:247)
+	at com.experitest.client.Client.click(Client.java:476)
+	at seetest.PlaystoreTest.runtest(PlaystoreTest.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.experitest.client.InternalException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runtest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.PlaystoreTest@5276e6b0]" started-at="2018-01-24T15:31:25Z" name="tearDown" finished-at="2018-01-24T15:36:53Z" duration-ms="327732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runtest status=FAILURE method=PlaystoreTest.runtest()[pri:0, instance:seetest.PlaystoreTest@5276e6b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seetest.PlaystoreTest -->
+      <class name="seetest.IOS_appstoretest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.IOS_appstoretest@d4342c2]" started-at="2018-01-24T15:29:36Z" name="setUp" finished-at="2018-01-24T15:29:36Z" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runtest()[pri:0, instance:seetest.IOS_appstoretest@d4342c2]" started-at="2018-01-24T15:29:36Z" name="runtest" finished-at="2018-01-24T15:31:09Z" duration-ms="92225" status="FAIL">
+          <exception class="com.experitest.client.InternalException">
+            <message>
+              <![CDATA[Exception caught while executing click: Failed to click 'Face'. Object repository doesn't contain: default\Face]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.experitest.client.InternalException: Exception caught while executing click: Failed to click 'Face'. Object repository doesn't contain: default\Face
+	at com.experitest.client.JavaClientInternals.executeInternally(JavaClientInternals.java:249)
+	at com.experitest.client.Client.execute(Client.java:247)
+	at com.experitest.client.Client.click(Client.java:476)
+	at seetest.IOS_appstoretest.runtest(IOS_appstoretest.java:87)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.experitest.client.InternalException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runtest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.IOS_appstoretest@d4342c2]" started-at="2018-01-24T15:31:09Z" name="tearDown" finished-at="2018-01-24T15:43:57Z" duration-ms="768489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runtest status=FAILURE method=IOS_appstoretest.runtest()[pri:0, instance:seetest.IOS_appstoretest@d4342c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- seetest.IOS_appstoretest -->
       <class name="seetest.Test5_mytest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.Test5_mytest@163e4e87]" started-at="2018-01-23T16:54:13Z" name="setUp" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seetest.Test5_mytest@163e4e87]" started-at="2018-01-24T15:29:36Z" name="setUp" finished-at="2018-01-24T15:29:36Z" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="runtest()[pri:0, instance:seetest.Test5_mytest@163e4e87]" started-at="2018-01-23T16:54:13Z" name="runtest" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
+        <test-method signature="runtest()[pri:0, instance:seetest.Test5_mytest@163e4e87]" started-at="2018-01-24T15:29:36Z" name="runtest" finished-at="2018-01-24T15:32:32Z" duration-ms="175594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runtest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.Test5_mytest@163e4e87]" started-at="2018-01-23T16:54:13Z" name="tearDown" finished-at="2018-01-23T16:54:13Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:seetest.Test5_mytest@163e4e87]" started-at="2018-01-24T15:32:32Z" name="tearDown" finished-at="2018-01-24T15:32:36Z" duration-ms="4581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runtest status=SUCCESS method=Test5_mytest.runtest()[pri:0, instance:seetest.Test5_mytest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
